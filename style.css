@@ -1,0 +1,41 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+.bgFlower {
+    background-image: url("images/f80CxI.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:600px !important;
+}
+
+.moto{
+    position: absolute;
+    z-index:99;
+    top:320px;
+    left:120px;
+    animation:animacion 10s infinite
+}
+
+@keyframes animacion {
+    0%   {background-color:grey ; left:120px; top:320px;}
+  25%  {background-color:lightblue  ; left:120px; top:0px;}
+  50%  {background-color:lightskyblue; left:120px; top:420px;}
+  75%  {background-color:lightgray; left:120px; top:320px;}
+  100% {background-color:lightseagreen; left:120px; top:320px;}
+}
+
+.products{
+    margin: 0px;
+    padding:40px;
+}
+
+.footeri{
+    color:white;
+    background: #333;
+    height: 500px;
+    padding:120px
+}
